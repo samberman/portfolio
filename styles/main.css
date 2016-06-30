@@ -1,0 +1,139 @@
+body {
+  background: #66d9ff;
+}
+
+header{
+	width:100%; 
+	background:#99ff99; 
+	height:50px; 
+	line-height:50px;
+}
+.hamburger{
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:0px 15px 0px 15px;
+  color:#ff66ff;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.cross{
+  background:none;
+  position:absolute;
+  top:0px;
+  right:0;
+  padding:0px 15px 0px 15px;
+  color:#ff66ff;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.menu {
+  z-index:1000000; 
+  font-weight:bold; 
+  font-size:0.8em; 
+  width:100%; 
+  background:#99ff99;  
+  position:absolute; 
+  text-align:center;
+}
+
+.menu ul {
+  margin: 0; 
+  padding: 0; 
+  list-style-type: none; 
+  list-style-image: none;
+}
+
+.menu li {
+  display: block;   
+  padding:15px 0 15px 0; 
+ /* border-bottom:#1d1f20 1px solid;*/
+}
+
+.menu li:hover {
+  display: block;    
+  background:#66d9ff; 
+  padding:15px 0 15px 0; 
+  /*border-bottom:#1d1f20 1px solid;*/
+}
+
+.menu ul li a { 
+  text-decoration:none;  
+  margin: 0px; 
+  color:#fff;
+}
+
+.menu ul li a:hover {  
+  color: #fff; 
+  text-decoration:none;
+}
+
+.menu a {
+  text-decoration:none; 
+  color:#ff66ff;
+  text-shadow: 2px #ff66ff;
+}
+
+.menu a:hover {
+  text-decoration:none; 
+  color:white;
+}
+
+#hello {
+  background: #66d9ff;
+  color: white;
+  padding-top: 150px;
+}
+
+#hello a {
+  color: #ff66ff;
+  text-decoration: none;
+}
+
+#hello img {
+  float: left;
+  padding-right: 8px;
+}
+
+#description {
+  color: white;
+}
+
+#food_roulette {
+  padding-top: 32px;
+}
+
+#food_roulette a {
+  text-decoration: none;
+  color: white;
+}
+
+#food {
+  float: left;
+}
+
+#roulette {
+  color: white;
+}
+
+#info {
+  color: white;
+  padding-top: 50px;
+  text-align: center;
+}
+
+#info a {
+  color: white;
+  text-decoration: none;
+}
