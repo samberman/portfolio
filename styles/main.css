@@ -129,11 +129,15 @@ header{
 
 #info {
   color: white;
-  padding-top: 50px;
+  padding-top: 150px;
   text-align: center;
 }
 
 #info a {
   color: white;
   text-decoration: none;
+}
+
+#info a:hover {
+  color: #ff66ff;
 }
