@@ -15,7 +15,7 @@ header{
   right:0;
   line-height:45px;
   padding:0px 15px 0px 15px;
-  color:#ff66ff;
+  color:#8b008b;
   border:0;
   font-size:1.4em;
   font-weight:bold;
@@ -29,7 +29,7 @@ header{
   top:0px;
   right:0;
   padding:0px 15px 0px 15px;
-  color:#ff66ff;
+  color:#8b008b;
   border:0;
   font-size:3em;
   line-height:65px;
@@ -81,33 +81,39 @@ header{
 
 .menu a {
   text-decoration:none; 
-  color:#ff66ff;
+  color: #8b008b;
   text-shadow: 2px #ff66ff;
 }
 
 .menu a:hover {
   text-decoration:none; 
-  color:white;
+  color: #555555;
 }
 
 #hello {
   background: #66d9ff;
-  color: white;
+  color: #555555;
   padding-top: 181px;
 }
 
 #hello a {
-  color: #ff66ff;
+  color: #8b008b;
+  text-decoration: none;
+}
+
+#hello a:hover {
+  color: #555555;
   text-decoration: none;
 }
 
 #hello img {
   float: left;
   padding-right: 8px;
+  width: 500px;
 }
 
 #description {
-  color: white;
+  color: #555555;
 }
 
 #food_roulette {
@@ -116,28 +122,33 @@ header{
 
 #food_roulette a {
   text-decoration: none;
-  color: white;
+  color: #8b008b;
+}
+
+#food_roulette a:hover {
+  text-decoration: none;
+  color: #555555;
 }
 
 #food {
   float: left;
 }
 
-#roulette {
-  color: white;
-}
-
 #info {
-  color: white;
+  color: #555555;
   padding-top: 150px;
   text-align: center;
 }
 
+#info h3 {
+  color: #8b008b;
+}
+
 #info a {
-  color: white;
+  color: #8b008b;
   text-decoration: none;
 }
 
 #info a:hover {
-  color: #ff66ff;
+  color: #555555;
 }
