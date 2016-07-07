@@ -3,10 +3,10 @@ body {
 }
 
 header{
-	width:100%; 
-	background:#99ff99; 
-	height:50px; 
-	line-height:50px;
+  width:100%; 
+  background:#99ff99; 
+  height:50px; 
+  line-height:50px;
 }
 .hamburger{
   background:none;
