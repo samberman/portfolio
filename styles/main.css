@@ -1,7 +1,8 @@
 body {
   background: #66d9ff;
+  width: 100%;
 }
-
+/* =================== MENU ===================== */
 header{
   width:100%; 
   background:#99ff99; 
@@ -89,7 +90,7 @@ header{
   text-decoration:none; 
   color: #555555;
 }
-
+/* =============== HOME/ABOUT ===================== */
 #hello {
   background: #66d9ff;
   color: #555555;
@@ -111,13 +112,33 @@ header{
   padding-right: 8px;
   width: 500px;
 }
+/* ===================PROJECTS =================== */
+#wrapper {
+  text-align: center;
+  width: 80%;
+}
+
+.column {
+  display: inline-block;
+  width: 49%;
+}
+
+#descriptions {
+  /*float: right;*/
+}
+
+#food {
+  height: 730px;
+  /*display: block;*/
+}
 
 #description {
   color: #555555;
 }
 
 #food_roulette {
-  padding-top: 32px;
+  padding-bottom: 545px;
+  padding-right: 155px;
 }
 
 #food_roulette a {
@@ -130,10 +151,43 @@ header{
   color: #555555;
 }
 
-#food {
-  float: left;
+#project2 img {
+  display: block;
+  /*float: left;*/
 }
 
+#jukebox h6 {
+
+}
+
+@media all and (min-width: 945px) {
+  #descriptions {
+    float: right;
+  }
+
+  #jukebox {
+    padding-left: 145px;
+  }
+}
+
+@media all and (max-width: 1920px) and (min-width: 946px) {
+  #descriptions {
+    float: none;
+  }
+}
+
+@media all and (max-width: 944px) and (min-width: 400px) {
+  #descriptions {
+    float: left;
+    position: absolute;
+    width: 250px;
+  }
+
+  #description {
+    margin-left: 163px;
+  }
+}
+/* ==================== CONTACT ==================== */
 #info {
   color: #555555;
   padding-top: 150px;

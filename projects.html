@@ -1,6 +1,7 @@
 <html lang="en">
 <head>
 	<title>Projects</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="styles/normalize.css">
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
@@ -24,11 +25,23 @@
 	  	</ul>
 		</div> 
 	</div>
-
-		<img id="food" src="images/food_roulette.png" alt="Screen Shot of Food Roulette search page">
-	<div id="food_roulette">
-		<a id="roulette" href="http://foodieroulette.herokuapp.com/" target="_new">Food Roulette</a>
-		<p id="description">A web app allowing a user to 'roll the dice' to get a restaurant recommendation based on their current location, the type of food they want to eat, and the radius they want to travel in meters. Built in Javascript, jQuery, Yelp API and Ruby on Rails.</p>
+	<div id="wrapper">
+		<div class="column" id="images">
+			<img id="food" src="images/food_roulette.png" alt="Screen Shot of Food Roulette search page">
+			<img id="project2_img" width="500px"  src="images/js_jukebox.png" alt="Screen Shot of Jukebox">
+		</div>
+		<div class="column" id="descriptions">
+			<div id="food_roulette">
+				<a id="roulette" href="http://foodieroulette.herokuapp.com/" target="_new">Food Roulette</a>
+				<p id="description">A web app allowing a user to 'roll the dice' to get a restaurant recommendation based on their current location, the type of food they want to eat, and the radius they want to travel in meters. Built using Javascript, jQuery, the Yelp API and Ruby on Rails.</p>
+			</div>
+			<div id="jukebox">
+				<h6> Javascript Jukebox (currently in development)</h6>
+				<p id="project2_desc">This static html page allows a user to play and pause a list of preloaded songs, skip to the next song, as well as add a song to the playlist via a form including an mp3 url. Built using HTML, CSS, Javascript, and JQuery. </p>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
+
+		
