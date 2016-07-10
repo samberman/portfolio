@@ -111,62 +111,99 @@ header{
   float: left;
   padding-right: 8px;
   width: 500px;
+  max-width: 100%;
+  height: auto;
+}
+
+@media all and (max-width: 944px) and (min-width: 400px) {
+  #hello p {
+    padding-left: 22px;
+  }
+  #contact {
+    padding-left: 10px;
+  }
+}
+
+@media all and (max-width: 995px) and (min-width: 930px) {
+  #hello p {
+    width: 90%;
+  }
+}
+
+@media all and (max-width: 834px) and (min-width: 829px) {
+  #hello p {
+    width: 90%;
+  }
+}
+
+@media all and (max-width: 770px) and (min-width: 710px) {
+  #hello p {
+    width: 90%;
+  }
 }
 /* ===================PROJECTS =================== */
-#wrapper {
-  text-align: center;
-  width: 80%;
-}
-
-.column {
-  display: inline-block;
-  width: 49%;
-}
-
-#descriptions {
-  /*float: right;*/
-}
-
-#food {
-  height: 730px;
-  /*display: block;*/
-}
-
-#description {
-  color: #555555;
-}
-
 #food_roulette {
-  padding-bottom: 545px;
-  padding-right: 155px;
+  padding-top: 30px;
 }
 
 #food_roulette a {
-  text-decoration: none;
   color: #8b008b;
+  text-decoration: none;
 }
 
-#food_roulette a:hover {
-  text-decoration: none;
+#project1_desc {
   color: #555555;
 }
 
-#project2 img {
-  display: block;
-  /*float: left;*/
+#jukebox {
+  color: #555555;
 }
 
 #jukebox h6 {
-
+  color: #8b008b;
 }
 
 @media all and (min-width: 945px) {
   #descriptions {
     float: right;
   }
+}
+
+@media all and (max-width: 991px) {
+  #food_roulette {
+    padding-left: 70px;
+    padding-bottom: 100px;
+    width: 400px;
+  }
+
+@media all and (min-width: 1180px) {
+  #project1 {
+    text-align: center;
+    width: 75%;
+  }
+  #project2 {
+  text-align: center;
+  width: 75%;
+  }
+}
+
+  #project1_img {
+    margin-bottom: -85px;
+  }
+
+  #project2 {
+    padding-left: 40px;
+  }
 
   #jukebox {
-    padding-left: 145px;
+    padding-left: 25px;
+    width: 400px;
+  }
+}
+
+@media all and (max-width: 1370px) and (min-width: 992px) {
+  #food_roulette {
+    padding-left: 152px;
   }
 }
 
@@ -177,6 +214,10 @@ header{
 }
 
 @media all and (max-width: 944px) and (min-width: 400px) {
+  #wrapper {
+    text-align: left;
+  }
+
   #descriptions {
     float: left;
     position: absolute;
@@ -184,15 +225,15 @@ header{
   }
 
   #description {
-    margin-left: 163px;
+    width: 200px;
   }
 }
 /* ==================== CONTACT ==================== */
-#info {
+/*#info {
   color: #555555;
   padding-top: 150px;
   text-align: center;
-}
+}*/
 
 #info h3 {
   color: #8b008b;
