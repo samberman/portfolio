@@ -205,6 +205,10 @@ header{
   #food_roulette {
     padding-left: 152px;
   }
+
+  #jukebox {
+    padding-left: 152px;
+  }
 }
 
 @media all and (max-width: 1920px) and (min-width: 946px) {
